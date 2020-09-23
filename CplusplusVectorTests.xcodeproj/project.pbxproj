@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8EBE6FC6251A4BA300CC42CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE6FC5251A4BA300CC42CF /* main.cpp */; };
+		8EBE6FCF251A4BE100CC42CF /* Predicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE6FCD251A4BE100CC42CF /* Predicate.cpp */; };
+		8EBE6FD3251A513500CC42CF /* DatalogProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE6FD1251A513500CC42CF /* DatalogProgram.cpp */; };
+		8EBE6FD7251AF53600CC42CF /* Param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE6FD5251AF53600CC42CF /* Param.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		8EBE6FC2251A4BA300CC42CF /* CplusplusVectorTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CplusplusVectorTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBE6FC5251A4BA300CC42CF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8EBE6FCD251A4BE100CC42CF /* Predicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Predicate.cpp; sourceTree = "<group>"; };
+		8EBE6FCE251A4BE100CC42CF /* Predicate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Predicate.hpp; sourceTree = "<group>"; };
+		8EBE6FD1251A513500CC42CF /* DatalogProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DatalogProgram.cpp; sourceTree = "<group>"; };
+		8EBE6FD2251A513500CC42CF /* DatalogProgram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DatalogProgram.hpp; sourceTree = "<group>"; };
+		8EBE6FD5251AF53600CC42CF /* Param.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Param.cpp; sourceTree = "<group>"; };
+		8EBE6FD6251AF53600CC42CF /* Param.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Param.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				8EBE6FC5251A4BA300CC42CF /* main.cpp */,
+				8EBE6FCD251A4BE100CC42CF /* Predicate.cpp */,
+				8EBE6FCE251A4BE100CC42CF /* Predicate.hpp */,
+				8EBE6FD1251A513500CC42CF /* DatalogProgram.cpp */,
+				8EBE6FD2251A513500CC42CF /* DatalogProgram.hpp */,
+				8EBE6FD5251AF53600CC42CF /* Param.cpp */,
+				8EBE6FD6251AF53600CC42CF /* Param.hpp */,
 			);
 			path = CplusplusVectorTests;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EBE6FC6251A4BA300CC42CF /* main.cpp in Sources */,
+				8EBE6FD3251A513500CC42CF /* DatalogProgram.cpp in Sources */,
+				8EBE6FCF251A4BE100CC42CF /* Predicate.cpp in Sources */,
+				8EBE6FD7251AF53600CC42CF /* Param.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
